@@ -6,7 +6,9 @@ margin: 0;  /* get rid of margin, so all content is fullscreen */
 
 h1 {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
 }
 
 h2 {
@@ -26,7 +28,18 @@ h2 {
 }
 
 button {
+    all: unset;
     background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    border: #3882F6 solid 2px;
+}
+
+button:hover {
+    border: #F9FAF8 solid 2px;
 }
 
 .header-section {
@@ -41,6 +54,7 @@ button {
     align-items: center;
     justify-content: space-between;
     width: 80vw;
+    margin-bottom: 70px;
 }
 
 
@@ -50,4 +64,27 @@ button {
     padding: 0;
     display: flex;
     gap: 20px;
+}
+
+.hero {
+    display: flex;
+    width: 80vw;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+ .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+} 
+
+.hero-img {
+    display: flex;
+    width: 300px;
+    background-color: #405572;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
 }
