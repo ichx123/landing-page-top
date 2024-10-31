@@ -1,6 +1,7 @@
 body {
 font-family: "Roboto", Arial, Helvetica, sans-serif;
 font-size: 18px;
+margin: 0;  /* get rid of margin, so all content is fullscreen */
 }
 
 h1 {
@@ -15,13 +16,38 @@ h2 {
 
 .secondary-text {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .header-logo {
     font-size: 24px; 
     color: #F9FAF8;
+    display: flex;
 }
 
 button {
     background-color: #3882F6;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+
+.header-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
