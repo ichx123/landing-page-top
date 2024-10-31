@@ -1,0 +1,27 @@
+body {
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
