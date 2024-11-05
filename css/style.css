@@ -118,7 +118,7 @@ button:hover {
 .info-img {
     width: auto;
     height: 170px;
-    border: #3882F5 solid 3px;
+    border: #3882F6 solid 3px;
     border-radius: 10px;
 }
 
@@ -144,4 +144,36 @@ button:hover {
     font-weight: 900;
     width: 800px;
     text-align: right;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cta-box {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 20px;
+    border-radius: 10px;
+    gap: 50px;
+    color: #F9FAF8
+}
+
+.cta-box p {
+    margin: 5px;
+}
+
+.cta-title {
+    font-weight: 900;
+}
+
+.cta-box button {
+    border-color: #F9FAF8;
+
 }
